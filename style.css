@@ -867,6 +867,13 @@ textarea.input-field {
   font-weight: var(--fw-500);
   display: inline-block;
 }
+.card-link {
+  color: black;
+}
+
+.card-address {
+  color: black;
+}
 
 
 
@@ -904,7 +911,60 @@ textarea.input-field {
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+@media (min-width: 400px){
+  #white {
+    color: white;
+  }
 
+  #white1 {
+    color: white;
+  }
+
+  .auto-type {
+    color: yellow;
+  }
+  #head {
+    color: var(--safety-orange);
+  }
+
+  #head1 {
+    color: var(--safety-orange);
+  }
+
+  #head2 {
+    color: var(--safety-orange);
+  }
+
+  #head3 {
+    color: var(--safety-orange);
+  }
+
+  #services {
+    color: yellow;
+  }
+
+  #head5 {
+    color: white;
+  }
+
+  #yellow {
+    color: yellow;
+  }
+
+  #project-id {
+    color: yellow;
+  }
+
+  #black {
+    background-color: black;
+  }
+
+  #contact {
+    background-color: black;
+    color: white;
+  }
+
+}
 /**
  * responsive for larger than 575px screen
  */
@@ -941,6 +1001,60 @@ textarea.input-field {
       grid-template-columns: 0.47fr 1fr;
       align-items: center;
       gap: 10px;
+    }
+    #white {
+      color: white;
+    }
+  
+    #white1 {
+      color: white;
+    }
+  
+    .auto-type {
+      color: yellow;
+    }
+    /**
+    * ABOUT
+    */
+    #head {
+      color: var(--safety-orange);
+    }
+  
+    #head1 {
+      color: var(--safety-orange);
+    }
+  
+    #head2 {
+      color: var(--safety-orange);
+    }
+  
+    #head3 {
+      color: var(--safety-orange);
+    }
+  
+    #services {
+      color: yellow;
+    }
+  
+    #head5 {
+      color: white;
+    }
+  
+    #yellow {
+      color: yellow;
+    }
+  
+    #project-id {
+      color: yellow;
+    }
+  
+    #black {
+      background-color: black;
+    }
+  
+    #contact {
+      background-color: black;
+      color: white;
     }
   
   
@@ -1014,6 +1128,17 @@ textarea.input-field {
       max-width: 60ch;
       margin-inline: auto;
     }
+    #white {
+      color: white;
+    }
+  
+    #white1 {
+      color: white;
+    }
+  
+    .auto-type {
+      color: yellow;
+    }
   
   
   
@@ -1029,6 +1154,47 @@ textarea.input-field {
       max-width: unset;
       margin-inline: 0;
     }
+    #head {
+      color: var(--safety-orange);
+    }
+  
+    #head1 {
+      color: var(--safety-orange);
+    }
+  
+    #head2 {
+      color: var(--safety-orange);
+    }
+  
+    #head3 {
+      color: var(--safety-orange);
+    }
+  
+    #services {
+      color: yellow;
+    }
+  
+    #head5 {
+      color: white;
+    }
+  
+    #yellow {
+      color: yellow;
+    }
+  
+    #project-id {
+      color: yellow;
+    }
+  
+    #black {
+      background-color: black;
+    }
+  
+    #contact {
+      background-color: black;
+      color: white;
+    }
+  
   
   
   
