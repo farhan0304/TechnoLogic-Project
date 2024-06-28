@@ -858,6 +858,7 @@ textarea.input-field {
 }
 
 .copyright {
+  color: black;
   font-size: var(--fs-6);
   text-align: center;
 }
@@ -911,7 +912,7 @@ textarea.input-field {
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
-@media (min-width: 400px){
+@media (min-width: 250px){
   #white {
     color: white;
   }
